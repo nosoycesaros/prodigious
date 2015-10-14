@@ -1,0 +1,265 @@
+body {
+    background: url('../images/background.jpg') fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(142, 128, 113, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0;
+    border-radius: 0;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.35);
+    font-weight: bold;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(142, 128, 113, 1);
+    background-color: rgba(248, 248, 248, 0);
+    border-bottom: 2px solid #FFF;
+    -webkit-transition: all 0.4s;
+    /* Safari */
+    
+    transition: all 0.4s;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover, #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(142, 128, 113, 1);
+    background-color: rgba(248, 243, 240, 1);
+    border-bottom: 2px solid #4daf7b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a, #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover, #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(142, 128, 113, 1);
+    background-color: rgba(248, 243, 240, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #f8f3f0;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover, #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #f8f3f0;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f8f3f0;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar, #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+#custom-bootstrap-menu .badge {
+    vertical-align: top;
+    background-color: #e55e3a;
+    font-size: 10px;
+    -webkit-transition: all 0.2s;
+    /* Safari */
+    
+    transition: all 0.2s;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover .badge {
+    margin-top: -3px;
+}
+/* CARDS */
+
+.card {
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    color: #5c5146;
+    margin-bottom: 25px;
+}
+.card .user-cover img {
+    width: 100%;
+}
+.card .avatar-container {
+    padding: 15px 0;
+}
+.card .user-avatar-container {
+    border: 1px solid #d3cec9;
+    padding: 8px;
+    border-radius: 50%;
+    max-width: 120px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card .user-avatar-container:hover {
+    padding: 0px;
+}
+.card .user-avatar {
+    height: auto;
+    vertical-align: middle;
+    margin: auto;
+}
+.card .user-info {
+    margin: 25px 0;
+}
+.card .user-info .title {
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+.card .share-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+.card .share-buttons li {
+    background: #f6f1ed;
+    padding: 10px 0;
+    font-weight: bold;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card .share-buttons li:hover {
+    background-color: #fdf9f5;
+}
+.card .share-buttons li:first-child {
+    color: #b8aca1;
+}
+.card .share-buttons li:nth-child(2) {
+    color: #b1a599;
+}
+.card .share-buttons li:last-child {
+    color: #e26f4d;
+    border-right: none;
+}
+.card .share-buttons li i {
+    margin-right: 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card .share-buttons li:hover i {
+    margin-right: 8px;
+}
+/* CARD STATS */
+
+.card.statistics {
+    color: #a79583;
+}
+.card .chart {
+    background: url('../images/chart-bg.jpg') #54bc75 repeat-x;
+    background-position: bottom;
+    background-size: 75% 50%;
+}
+.card .chart-data {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-weight: 300;
+}
+.card .chart-info {
+    padding: 25px;
+}
+.card .chart-info .city {
+    font-size: 22px;
+    font-weight: 300;
+}
+.card .big-data {
+    margin: 15px 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.card .big {
+    font-size: 1.5em;
+    color: #897869;
+    font-weight: 300;
+}
+.card .big-data li {
+    background: #f6f0ec;
+    padding: 15px 8px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card .big-data li:hover {
+    background: #fdf9f5;
+}
+.card .big-data li:first-child {
+    border-right: 1px solid #FFF;
+}
+.card .chart-info #yearly-change {
+    padding: 10px 8px;
+    background: #4daf7b;
+    text-align: center;
+    border-radius: 4px;
+    max-width: 116px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card .chart-info #yearly-change:hover {
+    background: #e26f4d;
+}
+/* CARD PROFILE */
+
+.card.profile {} .card.profile .header {
+    background: #b1a599;
+    color: #ffffff;
+    box-shadow: inset 0 -6px 5px rgba(0, 0, 0, 0.08);
+}
+.card.profile .header .title {
+    font-size: 1.4em;
+    line-height: 1;
+}
+.card.profile .header .followers {
+    color: #7d7266;
+}
+.card.profile .header .user-avatar-container {
+    border-color: #8d8175;
+}
+.card.profile .menu li {
+    list-style: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card.profile .menu li:hover {
+    background: #f8f3f0;
+    border-left: 4px solid #4daf7b;
+}
+.card.profile .menu li i.fa {
+    color: #c6bfb8;
+    font-size: 18px;
+
+
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card.profile .menu li:hover i.fa {
+    color: #e26f4d;
+}
+/** HELPERS */
+
+.inline-list {
+    padding: 0;
+    margin: 0;
+}
+.inline-list li {
+    display: inline-block;
+    list-style: none;
+    list-style: none;
+    vertical-align: top;
+}
+.inline-list.items-2 li {
+    width: 50%;
+}
+.inline-list.items-3 li {
+    width: 33.33%;
+}
+.opacity-65 {
+    opacity: 0.65;
+}
+.text-white {
+    color: #fff !important;
+}
+@media (max-width: 768px) {
+    .card .user-info {
+        text-align: center;
+        margin: 0px 0 25px 0;
+    }
+}
