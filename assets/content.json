@@ -1,0 +1,67 @@
+[{
+    "id": 0,
+    "name": "Menu",
+    "data": [{
+        "icon": "fa-map-marker",
+        "label": "CHECK IN",
+        "badge": "3"
+    },{
+        "icon": "fa-heart",
+        "label": "EVENTS",
+        "badge": "0"
+    },{
+        "icon": "fa-user",
+        "label": "ACCOUNT",
+        "badge": "0"
+    },{
+        "icon": "fa-cog",
+        "label": "SETTINGS",
+        "badge": "0"
+    }]
+},{
+    "id": 1,
+    "name": "Profile",
+    "data": [{
+        "cover": "http://lorempixel.com/370/215/",
+        "avatar": "http://lorempixel.com/300/300/people/7",
+        "name": "Carolina Shurilenko",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ex nisl.",
+        "views": "172",
+        "comments": "34",
+        "likes": "250"
+    }]
+},{
+    "id": 2,
+    "name": "Stats",
+    "data": {
+        "city": "Salt Lake City, Utah",
+        "time": "Today 2:25 pm",
+        "shares": "13.5",
+        "market": "28.44",
+        "yeraly": "+127.01",
+        "chart": [65.7, 59.8, 60.6, 55.2, 56.1, 55, 60, 55, 68, 62, 70, 75],
+        "chartLabels": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "resume": [65, 59, 80, 81, 56, 55, 40],
+        "resumeLabels": ["January", "February", "March", "April", "May", "June", "July"],
+        "change": "634.39",
+        "changeStat": "fa-caret-down"
+    }
+},{
+    "id": 3,
+    "name": "Profile Menu",
+    "data": [{
+        "avatar": "http://lorempixel.com/300/300/people/1",
+        "name": "Courtney Simmons",
+        "followers": 50000,
+        "statistics": 1,
+        "settings": 1,
+        "events": 1
+    },{
+        "avatar": "http://lorempixel.com/300/300/people/8",
+        "name": "Bryan Simmons",
+        "followers": 150,
+        "statistics": 0,
+        "settings": 1,
+        "events": 1
+    }]
+}]
